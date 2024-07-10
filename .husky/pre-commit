@@ -1,0 +1,8 @@
+#!/bin/sh
+# Disable concurent to run `check-types` after ESLint in lint-staged
+cd "$(dirname "$0")/.." && npx lint-staged --concurrent false
+
+# ~/.huskyrc
+# # This loads nvm.sh and sets the correct PATH before running hook
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
