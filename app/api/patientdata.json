@@ -1,0 +1,27 @@
+{
+    "name": "John Doe",
+    "age": 45,
+    "gender": "Male",
+    "address": "123 Main St, Springfield, IL 62704",
+    "phoneNumber": "(123) 456-7890",
+    "email": "johndoe@example.com",
+    "profilePicture": "/profile_picture.jpeg",
+    "medicalHistory": [
+      {
+        "date": "2023-05-14",
+        "diagnosis": "Hypertension",
+        "treatment": "Prescribed medication for blood pressure control"
+      },
+      {
+        "date": "2022-11-02",
+        "diagnosis": "Type 2 Diabetes",
+        "treatment": "Dietary changes and Metformin"
+      },
+      {
+        "date": "2021-07-23",
+        "diagnosis": "Seasonal Allergy",
+        "treatment": "Antihistamines"
+      }
+    ]
+  }
+  
